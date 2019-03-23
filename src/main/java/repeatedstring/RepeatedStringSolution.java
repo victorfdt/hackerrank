@@ -38,7 +38,7 @@ public class RepeatedStringSolution {
 
 	public static void main(String[] args) throws IOException {
 
-		long result = repeatedString("a", 100);
+		long result = repeatedString("aba", 10);
 
 		System.out.println(result);
 
