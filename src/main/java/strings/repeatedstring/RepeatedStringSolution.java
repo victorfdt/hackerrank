@@ -1,4 +1,4 @@
-package repeatedstring;
+package strings.repeatedstring;
 
 import java.io.IOException;
 import java.util.Scanner;
