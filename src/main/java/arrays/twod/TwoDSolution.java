@@ -1,6 +1,6 @@
-package arrayds;
+package arrays.twod;
 
-public class Solution {
+public class TwoDSolution {
 
 	// Complete the hourglassSum function below.
 	public static int hourglassSum(int[][] arr) {
