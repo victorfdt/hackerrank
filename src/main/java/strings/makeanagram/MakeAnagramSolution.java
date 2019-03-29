@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class MakeAnagramSolution {
+	private static long startTime = System.currentTimeMillis();
 
 	// Complete the makeAnagram function below.
 	static int makeAnagram(String a, String b) {
@@ -40,6 +41,7 @@ public class MakeAnagramSolution {
 
 	/**
 	 * Creates a Map with the letter and its quantity in the work
+	 * 
 	 * @param text
 	 * @return Map<letter, qtdLetter>
 	 */
@@ -71,10 +73,12 @@ public class MakeAnagramSolution {
 		// System.out.print("String b: ");
 		// String b = scanner.nextLine();
 
-		int res = makeAnagram("fcrxzwscanmligyxyvym", "jxwtrhvujlmrpdoqbisbwhmgpmeoke");
+		int res = makeAnagram("fcrxzwscanmligyxyvymfcrxzwscanmligyxyvymfcrxzwscanmligyxyvym",
+				"jxwtrhvujlmrpdoqbisbwhmgpmeokejxwtrhvujlmrpdoqbisbwhmgpmeokejxwtrhvujlmrpdoqbisbwhmgpmeokejxwtrhvujlmrpdoqbisbwhmgpmeokejxwtrhvujlmrpdoqbisbwhmgpmeokejxwtrhvujlmrpdoqbisbwhmgpmeokejxwtrhvujlmrpdoqbisbwhmgpmeokejxwtrhvujlmrpdoqbisbwhmgpmeokejxwtrhvujlmrpdoqbisbwhmgpmeokejxwtrhvujlmrpdoqbisbwhmgpmeokejxwtrhvujlmrpdoqbisbwhmgpmeokejxwtrhvujlmrpdoqbisbwhmgpmeokejxwtrhvujlmrpdoqbisbwhmgpmeokejxwtrhvujlmrpdoqbisbwhmgpmeokejxwtrhvujlmrpdoqbisbwhmgpmeokejxwtrhvujlmrpdoqbisbwhmgpmeokejxwtrhvujlmrpdoqbisbwhmgpmeokejxwtrhvujlmrpdoqbisbwhmgpmeokejxwtrhvujlmrpdoqbisbwhmgpmeoke");
 
 		System.out.println("\nNumber of deletions: " + res);
 
+		System.out.println("It took: " + (System.currentTimeMillis() - startTime));
 		scanner.close();
 	}
 }
