@@ -1,6 +1,4 @@
-package sorting.minuminswaps2;
-
-import java.util.Arrays;
+package sorting.minimumswaps2;
 
 public class MinimumSwaps2Solution {
 
